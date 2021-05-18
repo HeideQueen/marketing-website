@@ -1,0 +1,43 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1599669454699-248893623440?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: aliceblue;
+}
+
+.title h1 {
+  font-size: 3rem;
+}
+
+.description {
+  background-color: #202020;
+  color: aliceblue;
+}
+
+.description p {
+  padding: 3rem 20rem;
+  text-align: justify;
+}
+
+.footer {
+  background-color: #202020;
+  color: aliceblue;
+  text-align: center;
+  height: 100%;
+  padding: 2rem;
+}
+
+.footer p {
+  margin-bottom: 2rem;
+}
