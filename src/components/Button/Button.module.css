@@ -16,3 +16,8 @@
   background-color: aliceblue;
   color: black;
 }
+
+.button:active {
+  background-color: black;
+  color: aliceblue;
+}
