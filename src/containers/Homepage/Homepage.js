@@ -1,8 +1,8 @@
 import React from 'react';
-import FeatureCards from '../components/FeatureCards/FeatureCards';
-import Button from '../components/Button/Button';
+import FeatureCards from '../../components/FeatureCards/FeatureCards';
+import Button from '../../components/Button/Button';
 
-import cardData from '../data/cardData';
+import cardData from '../../data/cardData';
 
 import styles from './homepage.module.css';
 

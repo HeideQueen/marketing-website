@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import styles from './featureCard.module.css';
 
@@ -9,9 +10,9 @@ function FeatureCard({ name, image, link }) {
       <figure className={styles.imageContainer}>
         <img src={image} alt='headphone' className={styles.image} />
       </figure>
-      <a href={link} className={styles.link}>
+      <Link to={link} className={styles.link}>
         Learn More
-      </a>
+      </Link>
     </section>
   );
 }
