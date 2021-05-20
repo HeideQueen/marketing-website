@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import Homepage from './containers/Homepage/Homepage';
-import Feature1 from './containers/Feature1/Feature1';
-import Feature2 from './containers/Feature2/Feature2';
-import Feature3 from './containers/Feature3/Feature3';
+import Homepage from './pages/Homepage/Homepage';
+import Feature1 from './pages/Feature1/Feature1';
+import Feature2 from './pages/Feature2/Feature2';
+import Feature3 from './pages/Feature3/Feature3';
 
 import './App.css';
 
