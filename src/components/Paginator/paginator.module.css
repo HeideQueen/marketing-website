@@ -1,6 +1,6 @@
 .container {
-  color: aliceblue;
   font-size: 2rem;
+  font-weight: lighter;
   display: flex;
   justify-content: space-between;
   padding: 1rem;
