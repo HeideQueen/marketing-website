@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import styles from './Button.module.css';
 
 function Button() {
   return (
-    <a href='https://plaza.one/' className={styles.button}>
+    <Link to='/contact' className={styles.button}>
       Contact Us
-    </a>
+    </Link>
   );
 }
 
