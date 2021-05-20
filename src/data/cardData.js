@@ -15,7 +15,7 @@ const cardData = [
   },
   {
     id: 2,
-    name: 'Light and Nimble',
+    name: 'Multiple Colors',
     image:
       'https://images.unsplash.com/photo-1595268005256-f9032d8d49fb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
     link: '/feature3',

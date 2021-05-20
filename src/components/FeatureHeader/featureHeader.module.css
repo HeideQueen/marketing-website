@@ -1,0 +1,17 @@
+.header {
+  color: aliceblue;
+  background-color: #202020;
+  padding: 1rem;
+}
+
+.link {
+  color: aliceblue;
+}
+
+.link:hover {
+  color: hotpink;
+}
+
+.link:active {
+  color: #333;
+}

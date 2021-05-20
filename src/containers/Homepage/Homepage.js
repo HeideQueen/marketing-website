@@ -1,6 +1,8 @@
 import React from 'react';
+
 import FeatureCards from '../../components/FeatureCards/FeatureCards';
 import Button from '../../components/Button/Button';
+import Footer from '../../components/Footer/Footer';
 
 import cardData from '../../data/cardData';
 
@@ -23,16 +25,7 @@ function Homepage() {
         </p>
       </article>
       <FeatureCards data={cardData} />
-      <footer className={styles.footer}>
-        <p>
-          I'm baby fanny pack brunch umami migas flexitarian pok pok 8-bit,
-          bushwick echo park retro pug. Tumblr hell of cloud bread 3 wolf moon,
-          sriracha taiyaki post-ironic banh mi neutra. Flexitarian craft beer
-          edison bulb fashion axe prism. Cliche everyday carry green juice
-          venmo, palo santo poutine wayfarers godard williamsburg ramps kinfolk.
-        </p>
-        <Button />
-      </footer>
+      <Footer />
     </main>
   );
 }

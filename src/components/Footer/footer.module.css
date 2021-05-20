@@ -1,0 +1,11 @@
+.footer {
+  background-color: #202020;
+  color: aliceblue;
+  text-align: center;
+  height: 100%;
+  padding: 2rem;
+}
+
+.footer p {
+  margin-bottom: 2rem;
+}
