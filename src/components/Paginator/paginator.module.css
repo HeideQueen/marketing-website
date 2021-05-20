@@ -1,0 +1,21 @@
+.container {
+  color: aliceblue;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.link:hover {
+  color: hotpink;
+}
+
+.link:active {
+  color: #333;
+}

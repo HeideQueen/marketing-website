@@ -2,6 +2,7 @@ import React from 'react';
 
 import FeatureHeader from '../../components/FeatureHeader/FeatureHeader';
 import Footer from '../../components/Footer/Footer';
+import Paginator from '../../components/Paginator/Paginator';
 
 import styles from './feature1.module.css';
 
@@ -52,6 +53,7 @@ function Feature1() {
           <li>Farm-to-table narwhal chambray tacos synth affogato.</li>
         </ul>
       </section>
+      <Paginator />
       <Footer />
     </main>
   );

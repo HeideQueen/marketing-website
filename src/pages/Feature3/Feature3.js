@@ -2,6 +2,7 @@ import React from 'react';
 
 import FeatureHeader from '../../components/FeatureHeader/FeatureHeader';
 import Footer from '../../components/Footer/Footer';
+import Paginator from '../../components/Paginator/Paginator';
 
 import styles from './feature3.module.css';
 
@@ -68,6 +69,7 @@ function Feature3() {
           />
         </figure>
       </section>
+      <Paginator />
       <Footer />
     </main>
   );

@@ -1,7 +1,6 @@
 import React from 'react';
 
 import FeatureCards from '../../components/FeatureCards/FeatureCards';
-import Button from '../../components/Button/Button';
 import Footer from '../../components/Footer/Footer';
 
 import cardData from '../../data/cardData';
