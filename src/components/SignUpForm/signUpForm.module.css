@@ -6,3 +6,39 @@
   padding: 1rem;
   box-shadow: 5px 5px 15px 5px #333;
 }
+
+.formControl {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.formControl input {
+  border: lightblue 1px solid;
+  border-radius: 5px;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.submitButton {
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: #202020;
+  font-weight: bold;
+  font-family: 'KoHo', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.submitButton:hover {
+  color: #202020;
+  background-color: white;
+}
+
+.submitButton:active {
+  background-color: #333;
+  color: aliceblue;
+}

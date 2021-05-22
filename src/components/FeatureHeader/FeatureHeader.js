@@ -8,7 +8,7 @@ function FeatureHeader({ text }) {
     <header className={styles.header}>
       <h1>
         <Link to='/home' className={styles.link}>
-          Sound Experience Dx
+          Sound Experience DX
         </Link>{' '}
         {'>'} {text}
       </h1>
