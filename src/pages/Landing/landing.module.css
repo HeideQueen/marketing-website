@@ -1,3 +1,46 @@
 .container {
+  background: url('https://images.unsplash.com/photo-1420161900862-9a86fa1f5c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80')
+    no-repeat center center fixed;
+  background-size: cover;
+  color: aliceblue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header {
+  width: 40rem;
+}
+
+.header h1 {
+  font-weight: bold;
+}
+
+.header h2 {
+  font-weight: lighter;
+  margin-bottom: 2.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: aliceblue;
+  border: aliceblue 2px solid;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 20rem;
+  display: inline-block;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.link:hover {
+  color: #202020;
+  background-color: aliceblue;
+}
+
+.link:active {
+  background-color: #333;
   color: aliceblue;
 }
