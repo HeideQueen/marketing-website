@@ -7,7 +7,7 @@ import styles from './landing.module.css';
 
 function Landing() {
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
       <header className={styles.header}>
         <h2>WELCOME TO A NEW WORLD OF SONOROUSNESS</h2>
         <h1>
@@ -19,7 +19,7 @@ function Landing() {
         </Link>
       </header>
       <SignUpForm />
-    </div>
+    </main>
   );
 }
 
