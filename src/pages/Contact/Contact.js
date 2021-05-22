@@ -75,7 +75,7 @@ function Contact() {
             className={styles.button}
             onSubmit={(e) => e.preventDefault()}
           >
-            SUBMIT
+            Submit
           </button>
         </section>
       </main>

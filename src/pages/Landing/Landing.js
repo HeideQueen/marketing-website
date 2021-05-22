@@ -15,7 +15,7 @@ function Landing() {
           THAN ONE
         </h1>
         <Link to='/home' className={styles.link}>
-          Enter The Experience
+          Enter Experience
         </Link>
       </header>
       <SignUpForm />
