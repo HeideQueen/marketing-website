@@ -2,6 +2,7 @@
   color: aliceblue;
   background-color: #202020;
   padding: 2rem;
+  width: 100%;
 }
 
 .link {
@@ -19,5 +20,6 @@
 @media screen and (max-width: 500px) {
   .header {
     font-size: 0.5rem;
+    padding: 1rem;
   }
 }
