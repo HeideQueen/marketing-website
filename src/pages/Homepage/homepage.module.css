@@ -23,9 +23,19 @@
 .description {
   background-color: #202020;
   color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
 }
 
 .description p {
-  padding: 3rem 20rem;
-  text-align: justify;
+  width: 75%;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .title h1 {
+    font-size: 1.8rem;
+  }
 }

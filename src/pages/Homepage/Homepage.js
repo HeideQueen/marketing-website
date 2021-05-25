@@ -15,12 +15,13 @@ function Homepage() {
       </header>
       <article className={styles.description}>
         <p>
-          I'm baby banh mi DIY XOXO vice intelligentsia pitchfork try-hard
-          dreamcatcher. Viral raclette offal truffaut kickstarter. Ennui
-          authentic four loko af hammock. Pinterest meh tumeric deep v ethical
-          waistcoat. Pabst succulents seitan subway tile woke, franzen slow-carb
-          celiac four dollar toast fanny pack authentic distillery next level
-          pitchfork.
+          I'm baby etsy lyft salvia selvage plaid helvetica pug squid green
+          juice. Authentic typewriter salvia fam, hexagon wayfarers distillery
+          shabby chic literally activated charcoal gentrify mustache. Four loko
+          iPhone gochujang put a bird on it pork belly butcher vape meggings
+          messenger bag. 3 wolf moon tumblr flannel beard palo santo, cred
+          subway tile glossier prism polaroid. Tbh mixtape enamel pin, actually
+          swag iceland pop-up distillery.
         </p>
       </article>
       <FeatureCards data={cardData} />

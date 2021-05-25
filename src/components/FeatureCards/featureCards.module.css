@@ -4,3 +4,16 @@
   justify-content: space-around;
   padding: 3rem 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .cardContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .cardContainer > * {
+    margin: 1rem;
+  }
+}
