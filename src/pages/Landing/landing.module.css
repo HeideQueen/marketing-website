@@ -11,6 +11,8 @@
 
 .header {
   width: 40rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .header h1 {
@@ -44,3 +46,25 @@
   background-color: #333;
   color: aliceblue;
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .header {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header h1 {
+    text-align: center;
+  }
+
+  .header > * {
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+} ;
