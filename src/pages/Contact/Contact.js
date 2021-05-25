@@ -8,6 +8,8 @@ function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [city, setCity] = useState('');
+  const [phone, setPhone] = useState('');
 
   const handleChange = (type, input) => {
     if (type === 'name') {
@@ -21,6 +23,14 @@ function Contact() {
     if (type === 'message') {
       setMessage(input);
     }
+
+    if (type === 'city') {
+      setCity(input);
+    }
+
+    if (type === 'phone') {
+      setPhone(input);
+    }
   };
 
   return (
@@ -31,8 +41,7 @@ function Contact() {
           <h1>Contact Us</h1>
           <p>
             I'm baby fanny pack plaid taxidermy, microdosing artisan locavore
-            hoodie roof party seitan tumblr YOLO butcher. Lumbersexual poutine
-            bespoke kinfolk.
+            hoodie roof party seitan tumblr YOLO butcher.
           </p>
         </header>
         <section className={styles.formContainer}>
@@ -51,6 +60,20 @@ function Contact() {
                 required
                 value={email}
                 onChange={(e) => handleChange('email', e.target.value)}
+              />
+              <input
+                type='text'
+                placeholder='City'
+                required
+                value={email}
+                onChange={(e) => handleChange('city', e.target.value)}
+              />
+              <input
+                type='text'
+                placeholder='Phone number'
+                required
+                value={email}
+                onChange={(e) => handleChange('phone', e.target.value)}
               />
             </div>
             <textarea
